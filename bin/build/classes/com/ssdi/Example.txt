@@ -1,0 +1,47 @@
+package com.ssdi;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.hibernate.Query;
+
+public class Example {
+	
+	Object request;
+	Object session;
+	
+	String action = "";
+	//Call Business object                                  
+	if(action.equals("firrstPageopenPage"))
+	{
+		String s = Test.businessOP(request,session);
+	}
+	if(action.equals("firrstPagesubmit"))
+	{
+		Object businessObj2;
+	}
+	//    
+	
+	
+	
+	
+	
+	/*visible*/
+	String query = "";//SQL Queries
+	Query hiberQuery = session.createSQLQuery(query);
+	List resList = hiberQuery.list();//Select Queries
+	hiberQuery.executeUpdate();//Update Queries
+	/*visible*/
+	
+	//HQL Queries
+	/*visible*/
+	query = " from my_test";
+	Query hiberQuery2 = session.createQuery(query);//
+	List<Test> resList2 = hiberQuery.list();//Select Queries
+	/*visible*/
+	
+	session.close();//Close
+	
+
+}

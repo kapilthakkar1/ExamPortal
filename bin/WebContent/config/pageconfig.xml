@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page-config>
+	<page>
+		<page-name>FirstJsp</page-name>
+		<page-path>jsp/firstPage.jsp</page-path>
+	</page>
+	<page>
+		<page-name>SecondJsp</page-name>
+		<page-path>jsp/secondPage.jsp</page-path>
+	</page>
+</page-config>

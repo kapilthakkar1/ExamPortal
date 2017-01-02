@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+   <session-factory>
+   <property name="hibernate.dialect">
+      org.hibernate.dialect.MySQLDialect
+   </property>
+   <property name="hibernate.connection.driver_class">
+      com.mysql.jdbc.Driver
+   </property>
+
+   <!-- Assume test is the database name -->
+   <property name="hibernate.connection.url">
+      jdbc:mysql://db4free.net:3306/examportal
+   </property>
+   <property name="hibernate.connection.username">
+      ssdigrp3
+   </property>
+   <property name="hibernate.connection.password">
+      ssdigrp3
+   </property>
+   <property name="hibernate.show_sql">true</property> 
+  	<property name="hibernate.generate_statistics">true</property> 
+  	<property name="hibernate.format_sql">true</property> 
+
+   <!-- List of Class mapping files -->
+   <mapping class="com.ssdi.tables.MyTest"/>
+    <mapping class="com.ssdi.tables.UserDtls"/>
+    <mapping class="com.ssdi.tables.ExamDtls"/>
+    <mapping class="com.ssdi.tables.UserTxnDtls"/>
+    <mapping class="com.ssdi.tables.QuestionDtls"/>
+     <mapping class="com.ssdi.tables.CertificationDtls"/>
+
+</session-factory>
+</hibernate-configuration>

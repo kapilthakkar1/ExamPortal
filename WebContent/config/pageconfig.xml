@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page-config>
+	<page>
+		<page-name>FirstJsp</page-name>
+		<page-path>jsp/firstPage.jsp</page-path>
+	</page>
+	<page>
+		<page-name>SecondJsp</page-name>
+		<page-path>jsp/secondPage.jsp</page-path>
+	</page>
+	<page>
+		<page-name>Error</page-name>
+		<page-path>jsp/error.jsp</page-path>
+	</page>
+	
+	<page>
+		<page-name>HomePage</page-name>
+		<page-path>jsp/homepage/homePage.jsp</page-path>
+	</page>
+	
+		<page>
+		<page-name>ExamsPage</page-name>
+		<page-path>jsp/examsPage.jsp</page-path>
+	</page>
+	<page>
+	<page-name>certificatesPage</page-name>
+	<page-path>jsp/certificatesPage.jsp</page-path>
+	</page>
+	<page>
+		<page-name>signupPage</page-name>
+		<page-path>jsp/signup/signup.jsp</page-path>
+	</page>
+	<page>
+		<page-name>header</page-name>
+		<page-path>jsp/common/header.jsp</page-path>
+	</page>
+	<page>
+		<page-name>ExamQuestion</page-name>
+		<page-path>jsp/examQuestions.jsp</page-path>
+	</page>
+	
+	<page>
+		<page-name>CreateExamPage</page-name>
+		<page-path>jsp/createexamPage.jsp</page-path>
+	</page>
+	<page>
+		<page-name>examPageAdmin</page-name>
+		<page-path>jsp/examPageAdmin.jsp</page-path>
+	</page>
+	
+	<page>
+		<page-name>addQuestion</page-name>
+		<page-path>jsp/addQuestion.jsp</page-path>
+	</page>
+	
+	<page>
+		<page-name>welcome</page-name>
+		<page-path>jsp/common/welcome.jsp</page-path>
+	</page>
+	
+	
+	<page>
+		<page-name>CertificationPage</page-name>
+		<page-path>jsp/certificationPage.jsp</page-path>
+	</page>
+	
+	<page>
+		<page-name>editExam</page-name>
+		<page-path>jsp/editexamPage.jsp</page-path>
+	</page>
+	<page>
+		<page-name>addEditQues</page-name>
+		<page-path>jsp/addEditQuesAdmin.jsp</page-path>
+	</page>
+	<page>
+		<page-name>viewQues</page-name>
+		<page-path>jsp/viewQuestions.jsp</page-path>
+	</page>
+	
+	
+	
+</page-config>
